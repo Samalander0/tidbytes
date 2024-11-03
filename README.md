@@ -1,38 +1,11 @@
-# sv
+# Tidbytes
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Tidbytes is a collection of random highly-designed components. Each component aims to add a bit of fun and magic to your site, and they're incredibly easy to copy and paste.
 
-## Creating a project
+<img width="1449" alt="image" src="https://github.com/user-attachments/assets/856a3340-d090-47cc-b925-dc1c3ba35bfc">
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Next steps
+Soon, there will be more components, and dark mode!
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Development
+Tidbytes was created using SvelteKit. CSS was written in SCSS, but nesting and other features used in the code snipets are now available in vanilla CSS.
