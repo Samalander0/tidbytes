@@ -250,3 +250,24 @@ main {
     }
   }
 }
+
+footer {
+  padding: 0 4rem 4rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  color: #A1A1AA;
+
+  a {
+    color: inherit;
+    text-decoration: underline solid rgb(0 0 0 / 0.1);
+
+    transition: 0.2s ease;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+  p {
+    margin: 0;
+  }
+}

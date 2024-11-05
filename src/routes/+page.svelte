@@ -90,3 +90,8 @@
     <button class="popup-background" aria-label="close" on:click={() => {popup_open = false}}></button>
   </div>
 </main>
+
+<footer>
+  <p>Made by <a href="//www.samcheng.co" target="_blank">Sam</a></p>
+  <a href="mailto:sam@samcheng.co">Contact</a>
+</footer>
